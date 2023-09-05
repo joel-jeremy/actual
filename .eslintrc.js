@@ -151,6 +151,8 @@ module.exports = {
     'prefer-const': 'off',
     'prefer-spread': 'off',
     '@typescript-eslint/no-empty-function': 'off',
+    // emotionjs css prop
+    'react/no-unknown-property': ['error', { ignore: ['css'] }],
   },
   overrides: [
     {
